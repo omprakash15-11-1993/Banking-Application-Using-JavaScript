@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Banking</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        
+        <div class="upload-image-css">
+            <section>
+                <p><img id="output" src="profile1.jpg" class="image-style" width="200" height="200" /></p>
+                <p><input type="file" accept="image/*" id="file" onchange="loadFile(event)" style="display: none;"></p> <!-- accept="image" is only to accept image file-->
+                <p class="upload-btn-css"><label for="file" class="cursor-pointer-css">Upload Image</label></p>
+            </section>
+        </div>
+
+        <div class="bankPage-css">
+           <div class="div-text">What's your plan today?</div>
+        </div>
+        <div class="balance-css">
+            <p>Balance : &#8377;&nbsp;<input type="text" value="0.0" disabled id="updateBalance" class="show-balance-css"></p>
+        </div>
+        <div class="banking-css">
+            <div>
+                <form action="">
+                    
+                    <div class="withdraw-css">
+                        <label class="WithdrawDeposit">Withdraw/Deposit : </label>
+                        <select id="selectBanking">
+                            <option value="select" id="NotSelected">--Select--</option>
+                            <option value="deposit" id="deposit">Deposit</option>
+                            <option id="withdraw" value="withdraw">Withdraw</option>
+                        </select>
+                    </div>
+                
+                <div class="amount-text-css">
+                    <label class="EnterAmount">Enter Amount :</label>
+                    <input type="number" placeholder="Enter Amount" id="EnterAmount">
+                </div>
+                <div class="description-text-css">
+                    <label for="Description">Description :</label>
+                    <input type="text" placeholder="Enter Description" id="EnterDescription">
+                </div>
+                <div class="submit-css">
+                    <input type="button" class="sub-btn" onclick="updateTransaction()" value="Submit">
+                </div>
+                <div class="reset-css">
+                    <input type="reset" class="res-btn">
+                </div>
+                </form>
+            </div>
+        </div>
+        <hr id="hr1">
+        
+        <!-- Progress bar -->
+        <div id="chartContainer" class="pie-chart-css"></div>
+
+        <!-- WithDraw History -->
+        <p class="WDH">Withdrawal History</p>
+        
+        <div class="withdraw-history-css">
+            
+            <div class="withdraw-amount-css">
+                Amount 
+            <p id="showAmount" class="show-WDamount-css"></p>
+            
+            <div class="verticalLine1"></div>
+            <div class="withdraw-description-css">    
+                Description
+                <p id="showDescription" class="show-WDdescription-css"></p>
+            </div>
+        </div>
+        </div>
+        <!-- Deposit History -->
+        <p class="DH">Deposit History</p>
+        <div class="deposit-history-css">    
+            <div class="deposit-amount-css">
+                Amount 
+                <p id="showAmount1" class="show-DepoAmount-css"></p>
+            </div>
+            <div class="verticalLine2"></div>
+            <div class="deposit-description-css">    
+                Description
+                <p id="showDescription1" class="show-DepoDescription-css"></p>
+            </div>
+        </div>
+
+        <button onclick="printDiv()" class="pdf-btn">Download as PDF</button>
+
+        <script src="banking.js"></script>
+        <script src="canvas.js"></script>
+        <script src='pieChart.js'></script>
+   
+    </body>
+</html>

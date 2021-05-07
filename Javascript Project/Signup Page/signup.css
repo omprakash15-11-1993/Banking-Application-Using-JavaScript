@@ -1,0 +1,43 @@
+div{
+    border: solid;
+    height: 600px;
+    width: 1420px;
+    background-image: url("money.jpg");
+    background-size: cover;
+    float: left;
+    
+  } 
+h1{
+    text-align: center;
+    color: black;
+}
+input[type=text]{
+    padding: 20px;
+    margin-left: 150px;
+    font-size: 15px;
+    }
+header{
+    height: 50px;
+    background-image: url("icici.jpg");
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+h2{
+    text-align: center;
+    }
+nav{
+    height: 50px;
+    background-color: red;
+}
+footer{
+    border: solid;
+    height:60px;
+}
+input[type=radio]{
+    font-size: 50px;
+}
+
+input[type=password]{
+    font-size: px;
+}
+

@@ -1,0 +1,283 @@
+.upload-image-css{
+    border-right: 2px solid black;
+    margin-right:900px;
+    margin-top: -7px;
+    height: 100%;
+    position: absolute;
+}
+.image-style{
+    border-radius:50%;
+}
+.upload-btn-css{
+    margin: 0px 0px 0px 50px; 
+}
+.cursor-pointer-css{
+    font-size: medium;
+    font-family: cursive;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+.balance-css{
+    margin-left: 20px;
+    margin-top:280px ;
+    position: absolute;
+    font-size: medium;
+    font-family: cursive;
+}
+.bankPage-css{
+    margin-left: 200px;
+    margin-top: -7px;
+    position: absolute;
+    /* border-bottom:1px solid ; */
+    /* border-bottom: 100px solid #333; */
+    border-left: 485px solid transparent;
+    border-right: 485px solid transparent;
+    border-top: 45px solid rgba(19, 18, 18, 0.7);
+    width: 170px; 
+}
+.div-text{
+margin-top: -35px;
+color: white;
+}
+.withdraw-css{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.amount-text-css{
+    font-family: cursive;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+#EnterAmount
+{
+    font-family: cursive;
+    font-size: 15px;
+    padding: 0px 10px 0px 50px;
+    width: 135px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
+}
+#EnterAmount:hover{
+    box-shadow: 2px 2px 8px #03a9f4;
+}
+.description-text-css{
+    font-family: cursive;
+    position: absolute;
+    margin-left: 355px;
+    margin-top: 150px;
+}
+#EnterDescription
+{
+    font-family: cursive;
+    font-size: 15px;
+    padding: 0px 10px 0px 50px;
+    width: 135px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
+}
+#EnterDescription:hover{
+    box-shadow: 2px 2px 8px #03a9f4;
+}
+.submit-css{
+    position: absolute;
+    margin-left: 610px;
+    margin-top: 195px;
+}
+.sub-btn{
+    font-size: medium;
+    font-family: cursive;
+    width: 80px;
+    height: 30px;
+    border: none;
+    /* color: blue; */
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+.sub-btn:hover{ 
+  background-color: rgb(43, 45, 46);
+  color: white;
+}
+.reset-css{
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 195px;
+}
+.res-btn
+{
+    font-size: medium;
+    font-family: cursive;
+    width: 80px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+.res-btn:hover{ 
+    background-color: rgb(43, 45, 46);
+    color: white;
+  }
+#hr1{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 202px;
+    width: 1135px;
+    border: 1px solid black;
+}
+/* Withdrawal History */
+.WDH{
+    font-size: medium;
+    font-family: cursive;
+    position: absolute;
+    margin: 250px 50px 0px 340px;
+}
+.withdraw-history-css
+{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 220px;
+    border: 2px solid ;
+    height: 50%;
+}
+.withdraw-amount-css{
+    font-size: medium;
+    font-family: cursive;
+    padding: 10px 0px 10px 55px;
+    border-bottom: 2px solid;
+    width: 300px;
+}
+.show-WDamount-css{
+    position: absolute;
+}
+.verticalLine1{
+    position: absolute;
+    border-right: 2px solid;
+    margin: -33px 0px 0px 130px;
+    height: 331px;
+}
+.withdraw-description-css{
+    padding: 0px 60px 0px 20px;
+    margin: -24px 0px 0px 150px;  
+}
+.show-WDdescription-css{
+    font-size: medium;
+    font-family: cursive;
+    position: absolute;
+}
+/* deposit CSS */
+.DH{
+    font-size: medium;
+    font-family: cursive;
+    position: absolute;
+    margin: 250px 0px 0px 1080px;
+}
+.deposit-history-css{
+    font-size: medium;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 950px;
+    border: 2px solid ;
+    height: 50%;
+}
+.deposit-amount-css{
+    padding: 10px 0px 10px 55px;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 2px solid;
+    width: 300px;
+}
+.show-DepoAmount-css{
+    position: absolute;
+}
+.verticalLine2{
+    position: absolute;
+    border-right: 2px solid;
+    margin: -44px 0px 0px 180px;
+    height: 331px;
+}
+.deposit-description-css{
+    padding: 0px 0px 0px 50px;
+    margin: -34px 0px 0px 180px;  
+}
+.show-DepoDescription-css{
+    position: absolute; 
+}
+.show-balance-css
+{
+    border: none; 
+    width: 30%;
+    color: black; 
+    background-color: white;
+    font-size: medium;
+    font-family: cursive;
+}
+
+/* pie-chart-css */
+.pie-chart-css
+{
+    height: 300px; 
+    width: 300px;
+    position: absolute;
+    margin: 300px 0px 0px 600px;
+}
+
+/* select styling */
+.WithdrawDeposit{
+    font-size:15px;
+    font-size: medium;
+    font-family: cursive;
+
+}
+#selectBanking
+{
+    font-family: cursive;
+    font-size: 15px;
+    padding: 0px 10px 0px 50px;
+    width: 200px;
+    height: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+}
+#selectBanking:hover{
+    box-shadow: 2px 2px 8px #03a9f4;
+}
+/* select > option {
+ } */
+#NotSelected #withdraw #deposit{
+    font-size:15px;
+    font-family: cursive;
+}
+/* Pdf-btn css */
+.pdf-btn{
+    margin:610px 0px 0px 685px ;
+    position: absolute;
+    border-radius: 20px;
+    height: 30px;
+    font-family: cursive;
+    font-size: medium;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.pdf-btn:hover{
+    background-color: #111;
+    color:white ;
+}

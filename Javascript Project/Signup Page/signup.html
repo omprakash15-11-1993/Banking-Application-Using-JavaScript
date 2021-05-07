@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header></header>
+    <nav><p style="text-align: left; color: white; font-size:25px">Enroll in Online & Mobile Banking</p></nav>
+    
+    <div>
+<h1>Sign Up Here</h1>
+<h2>Welcome to Online Banking Registration Form! </h2>
+<form name="Entrance"  action="../HomePage/login.html">
+<input type="text"placeholder="First Name" id="fn">
+<span id="one" style="color: red;"></span>
+<input type="text" placeholder="Last Name" id="ln"><span id="two" style="color: red;"></span><br>
+<input type="text" placeholder="EmailId">
+<input type="text" placeholder="Phone Number" id="pn"><span id="three" style="color: red;"></span><br><br>
+Male:<input type="radio" name="gender">
+Female:<input type="radio" name="gender">
+Otherr:<input type="radio" name="gender">
+<p id="four" style="color: red;"></p><br><br>
+DOB:<input type="date" style="padding:10px;"><br><br>
+<input type="password" placeholder="Password" id="psw"><span id="five" style="color: red;"></span>
+
+
+<br><br>
+<input type="password" placeholder="Confirm Password" id="cpd">
+<span id="six" style="color: red;"></span><br><br>
+Select Country: <select name="state" id="countySel" size="1">
+    <option value="" selected="selected">Select Country</option>
+    </select>
+    <br>
+    <br>
+    Select State: <select name="countrya" id="stateSel" size="1">
+    <option value="" selected="selected">Please select Country first</option>
+    </select>
+    <br>
+    <br>
+    Select District: <select name="district" id="districtSel" size="1">
+    <option value="" selected="selected">Please select State first</option>
+    </select>
+    <br> <br>
+
+<b>By submitting, I agree that all info entered was done accurately & truthfully.</b><br>
+I accept: <input type="checkbox" value="0" name="agree"><br><br>
+<input type="submit" onsubmit="return validate()" value="Submit" style="font: size 40px;">
+</form>
+</div>
+    <script src="signup.js"></script>
+</body>
+
+</html>
